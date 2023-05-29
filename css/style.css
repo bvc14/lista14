@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    height: 900px;
+    position: relative;
+}
+
+main:nth-child(even) {
+    background-color: #E5E5E5;
+}
+main #logo-foguete{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+}
+
+div {
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+
+main h3 {
+    font-size: 30px;
+}
+
+main p {
+    margin-top: 30px;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.pag01 #titulo {
+    display: flex;
+}
+
+.pag01 #titulo h1 {
+    margin-right: 10px;
+    font-family: ;
+    color: #C65300;
+    font-weight: lighter;
+}
+
+
+.pag01 h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.pag01 p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.barra,
+.barra2, .barra3 {
+    padding-top: 270px;
+    width: 300px;
+    border-bottom: 3px solid #C65300;
+    margin: auto;
+    float: none;
+
+}
+
+.barra2 {
+    padding-top: 120px;
+}
+.barra3{
+    padding-top: 350px;
+}
+
+.email {
+    display: flex;
+}
+
+.email input[type="email"] {
+    position: relative;
+    left: 20%;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    gap: 0px;
+    outline: none;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+.email input[type="submit"] {
+    position: relative;
+    left: 20%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #C65300;
+    height: 30px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.email input[type="submit"]:hover {
+    border-radius: 10px;
+    font-weight: bolder;
+    padding-left: 10%;
+    background-color: #bd1212;
+}
+
+.lista img {
+    transition: 0.5s;
+
+}
+
+.lista img:hover {
+
+    width: 120px;
+}
+
+div h4 {
+    font-size: 20px;
+    padding: 20px;
+    color: #B10000;
+    transition: 0.2s;
+}
+
+div h4:hover {
+    letter-spacing: 2px;
+}
+
+.lista .html {
+    color: #FD982C;
+    text-shadow: 1px 1px 1px black;
+}
+
+.lista .css {
+    color: #2196F3;
+    text-shadow: 1px 1px 1px black;
+}
+
+.lista .javasc {
+    color: #FFDF00;
+    text-shadow: 1px 1px 1px black;
+}
+
+.lista div ul {
+    margin-left: 30%;
+}
+
+.lista div ul li {
+    list-style-image: url('/imagens/foguete.png');
+    padding: 5px;
+    text-align: left;
+
+}
+
+.lista div {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.pag03 .lista2 div {
+    float: left;
+    width: 50%;
+}
+.pag04 .final{
+    margin-top: 300px;
+    display: flex;
+}
+.pag04 .final h2{
+    margin-right: 10px;
+    font-size: 35px;
+}
+footer{
+    height: 200px;
+    background-color: black; 
+  
+}
+
+footer ul{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+footer ul li{
+    list-style: none;
+    padding-right: 10px; 
+}
+footer li a{
+    transition: 0.5s;
+}
+footer li a:hover{
+   margin: 20px;  
+}
